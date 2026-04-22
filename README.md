@@ -12,7 +12,7 @@
 
 ### 1) PHI Data Protection
 
-- Encrypt PHI in transit using TLS 1.2+.
+- Encrypt PHI in transit using TLS 1.3+.
 - Encrypt PHI at rest with managed key rotation.
 - Redact PHI from logs, traces, screenshots, and error outputs by default.
 - Prevent PHI persistence in local temp/session storage unless explicitly approved.
